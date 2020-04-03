@@ -1,0 +1,44 @@
+---
+BasedOnStyle: Webkit
+Language:        Cpp
+SpaceBeforeParens: Never
+SpaceAfterTemplateKeyword: true
+Standard:        Cpp11
+TabWidth: 2 
+IndentWidth: 2
+PointerAlignment: Left
+UseTab: ForIndentation
+BreakBeforeBraces: Custom
+AlignEscapedNewlines: Left
+AllowShortBlocksOnASingleLine: false
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+BreakConstructorInitializersBeforeComma: true
+BreakConstructorInitializers: AfterColon
+ConstructorInitializerAllOnOneLineOrOnePerLine: false
+ConstructorInitializerIndentWidth: 0
+ContinuationIndentWidth: 0
+KeepEmptyLinesAtTheStartOfBlocks: false
+IndentCaseLabels: true
+BreakBeforeBraces: Custom
+AllowShortFunctionsOnASingleLine: true
+AccessModifierOffset: -2
+SpaceBeforeParens: ControlStatements
+BraceWrapping:
+  AfterEnum: false
+  AfterStruct: false
+  SplitEmptyFunction: false
+  AfterControlStatement: false
+  AfterFunction: false
+  AfterNamespace: false
+  AfterUnion: false
+  AfterClass: false
+  BeforeCatch: false
+  BeforeElse: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
+  SplitEmptyFunction: false
+SortIncludes: true
+IncludeBlocks: Regroup
+...
